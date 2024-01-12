@@ -8,7 +8,7 @@ const ModelGallery = () => {
   return (
     <div className="model-gallery">
       <a rel="ar" href={plane}>
-        <Model src={photo} alt={photo.alt} />
+        <Model src={photo} alt={photo.alt}/>
       </a>
     </div>
   );
